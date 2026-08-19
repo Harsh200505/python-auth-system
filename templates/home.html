@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<section class="hero"><h1>Python Authentication System</h1><p>Register, securely hash passwords, login, logout and issue JWT access tokens.</p>{% if not user %}<a class="button" href="{{url_for('register')}}">Get Started</a>{% endif %}</section>{% endblock %}

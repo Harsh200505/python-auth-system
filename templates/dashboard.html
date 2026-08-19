@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<div class="box"><h2>Welcome, {{user.name}}</h2><p>Email: {{user.email}}</p><p>Your JWT is generated after login and can be used with protected API endpoints.</p><h3>Token</h3><textarea rows="7" readonly>{{token}}</textarea><p>Test API: send <b>Authorization: Bearer YOUR_TOKEN</b> to <code>/api/me</code>.</p></div>{% endblock %}

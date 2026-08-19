@@ -1,0 +1,19 @@
+@"
+__pycache__/
+*.py[cod]
+
+venv/
+.venv/
+
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+.env
+.vscode/
+.idea/
+
+*.log
+.pytest_cache/
+"@ | Set-Content .gitignore
